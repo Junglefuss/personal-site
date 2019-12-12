@@ -1,0 +1,50 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+  color: rgb(66, 59, 58);
+  margin: 5%;
+}
+
+/* header */
+header {
+  display: flex;
+  border-bottom: 0.2px solid rgb(140, 140, 140);
+  padding-bottom: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  /* background-color: grey; */
+  margin-left: auto;
+  /* align-self: flex-end; */
+}
+
+.nav-item {
+  text-decoration: none;
+  padding: 10px;
+  color: rgb(0, 184, 170);
+  /* background-color: pink; */
+}
+
+.nav-item:hover {
+  color: rgb(0, 87, 93);
+}
+
+/* page body */
+
+.panel {
+  color: rgb(66, 59, 58);
+  /* background-color: grey; */
+}
+
+h2:hover {
+  color: rgb(140, 140, 140);
+  /* cursor: s-resize; */
+}
+
+.content {
+  margin: 15px;
+  padding: 0 15px 0 15px;
+  border: 0.2px solid rgb(140, 140, 140);
+  display: none;
+}
